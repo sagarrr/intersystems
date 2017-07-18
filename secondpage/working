@@ -1,0 +1,113 @@
+var obj = {
+    "records": [{
+        "beans.Person": [{
+            "id": 0,
+            "name": "New Delhi",
+            "placesee": "india gate , lal kila, jantar mantar",
+            "password": "password21",
+            "age": 41,
+            "sex": true
+        }, {
+            "id": 22,
+            "name": "Name22",
+            "username": "Username22",
+            "password": "password22",
+            "age": 42,
+            "sex": true
+        }, {
+            "id": 23,
+            "name": "Name23",
+            "username": "Username23",
+            "password": "password23",
+            "age": 43,
+            "sex": true
+        }, {
+            "id": 24,
+            "name": "Name24",
+            "username": "Username24",
+            "password": "password24",
+            "age": 44,
+            "sex": true
+        }, {
+            "id": 25,
+            "name": "Name25",
+            "username": "Username25",
+            "password": "password25",
+            "age": 45,
+            "sex": true
+        }, {
+            "id": 26,
+            "name": "Name26",
+            "username": "Username26",
+            "password": "password26",
+            "age": 46,
+            "sex": true
+        }, {
+            "id": 27,
+            "name": "Name27",
+            "username": "Username27",
+            "password": "password27",
+            "age": 47,
+            "sex": true
+        }, {
+            "id": 28,
+            "name": "Name28",
+            "username": "Username28",
+            "password": "password28",
+            "age": 48,
+            "sex": true
+        }, {
+            "id": 29,
+            "name": "Name29",
+            "username": "Username29",
+            "password": "password29",
+            "age": 49,
+            "sex": true
+        }, {
+            "id": 30,
+            "name": "Name30",
+            "username": "Username30",
+            "password": "password30",
+            "age": 50,
+            "sex": true
+        }]
+    }]
+}
+
+document.write(obj.records[0]['beans.Person'][1]['username']);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+in html:
+
+<script>
+document.write(obj.records[0]['beans.Person'][0]['placesee']);
+</script>
+
+
+in js:
+
+document.write(obj.records[0]['beans.Person'][0]['id']);
